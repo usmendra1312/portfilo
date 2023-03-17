@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title> USMENDRA</title>
+    <link rel="stylesheet " href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="content">
+           <a href="login/login_form.php" class="btn">login</a>
+           <a href="login/register_form.php" class="btn">register</a>
+        </div>
+     
+     </div>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="qual.html">QUALIFICATION</a></li>
+                    <li><a href="skill.html">SKILL</a></li>
+                    <li><a href="error">WHAT'S NEW</a></li>
+                    <li><a href="upcoming.html">UPCOMING</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <div class="text-box">
+            <h1>USMENDRA SINGH WELCOMES YOU.</h1>
+            <p>EVERYTHING IS CONNECTED<br>CONNECTION IS POWER.
+            </p>
+            <a href="aboutme.html" class="hero-btn">ABOUT ME</a>
+        </div>
+    </section>
+
+<!--------------------------small-info---------------------------->
+    <section class="info">
+        <h1>INFORMATION</h1>
+        <div class="row">
+            <div class="info-col">
+                <h3>SCHOOL</h3>
+                <p>I HAVE COMPLETED MY SEINOR SECONDARY AND HEIGHER SECONDARY FROM HOLY TRINITY SCHOOL, DEWAS [M.P.]</p>
+            </div>
+            <div class="info-col">
+                <h3>DIPLOMA</h3>
+                <p>I HAVE COMPLETED DIPLOMA OF CERTIFIED ETHICAL HACKING (CEH) FROM APPIN INSTITUE OF TECHNOLOGY, INDORE [M.P.]</p>
+            </div>
+            <div class="info-col">
+                <h3>DEGREE</h3>
+                <p> I AM PURSUING MY BACHOLER'S DEGREE(BCA) FORM SHRI VAISHNAV VIDHYAPEETH VISHWAVIDHYALAY, INDORE [M.P.]</p>
+            </div>
+        </div>
+
+    </section>
+<!---------call to action-->
+    <section class="cta">
+        <h1>SOON COURSES ARE GOING TO AVAILABLE FOR ETHICAL HACKING</h1>
+    </section>
+<!------footer-->
+
+
+    <section class="footer">
+        <div class="footer-col">
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <a class="con" href="mailto:hackerhackesme006@gmail.com">hackerhacksme006@gmail.com</a>
+            
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                    <span>
+                        <a class="con" href="tel:+917049867854">+917049867854</a>
+                    </span>
+            </div>        
+        </div>
+        <div class="icons">
+            <a href="https://twitter.com/usmendra"><i class="fa fa-twitter"></a></i>
+            <a href="https://github.com/usmendra1312"><i class="fa fa-github"></a></i>
+            <a href="https://instagram.com/dhiraj_singh_b_d_b_y?igshid=ZDdkNTZiNTM"><i class="fa fa-instagram"></a></i>
+            <a href="https://www.linkedin.com/in/usmendra-singh-464bb31a0"><i class="fa fa-linkedin"></a></i>
+            <a href="https://www.facebook.com/profile.php?id=100015589876596"><i class="fa fa-facebook"></a></i>
+        </div>
+        <p>copyright <i class="fa fa-copyright"></i> 2023 Usmendra Singh<br>All rights reserved.</p>
+    </section>
+
+
+
+
+<!----------JavaScript for Toggle Menu------------------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

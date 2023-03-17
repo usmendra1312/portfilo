@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title> USMENDRA</title>
+    <link rel="stylesheet " href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="bod">
+    <section class="sub1-head">
+        <nav>
+            <a href="index.html"><img src="images/logo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="qual.html">QUALIFICATION</a></li>
+                    <li><a href="aboutme.html">ABOUTME</a></li>
+                    <li><a href="error">WHAT'S NEW</a></li>
+                    <li><a href="error">UPCOMING</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        
+    </section>
+
+<!--------skill-->
+    <div class="skill">
+        <h1>MY SKILLS</h1>
+        <li><h5>html</h5>
+            <span class="bar"><span class="html"></span>
+            </span>
+        </li>
+        <li><h5>css</h5>
+            <span class="bar"><span class="css"></span>
+            </span>
+        </li>
+        <li><h5>python</h5>
+            <span class="bar"><span class="python"></span>
+            </span>
+        </li>
+        <li><h5>C</h5>
+            <span class="bar"><span class="C"></span>
+            </span>
+        </li>
+        <li><h5>C++</h5>
+            <span class="bar"><span class="Cv"></span>
+            </span>
+        </li>
+        <li><h5>sql-injection</h5>
+            <span class="bar"><span class="sql-injection"></span>
+            </span>
+        </li>
+        <li><h5>acunetix</h5>
+            <span class="bar"><span class="acunetix"></span>
+            </span>
+        </li>
+    </div>
+<!------footer-->
+    <section class="footer">
+        <div class="footer-col">
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>hackerhacksme006@gmail.com</h5>
+                </span>
+            </div>
+        </div>
+        <div class="footer-col">
+            <div>
+                <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+917049867854</h5>
+                    </span>
+            </div>        
+        </div>
+        <div class="icons">
+            <a href="https://twitter.com/usmendra"><i class="fa fa-twitter"></a></i>
+            <a href="https://github.com/usmendra1312"><i class="fa fa-github"></a></i>
+            <a href="https://instagram.com/dhiraj_singh_b_d_b_y?igshid=ZDdkNTZiNTM"><i class="fa fa-instagram"></a></i>
+            <a href="https://www.linkedin.com/in/usmendra-singh-464bb31a0"><i class="fa fa-linkedin"></a></i>
+            <a href="https://www.facebook.com/profile.php?id=100015589876596"><i class="fa fa-facebook"></a></i>
+        </div>
+        <p>copyright <i class="fa fa-copyright"></i> 2023 Usmendra Singh<br>All rights reserved.</p>
+    </section>
+
+
+
+
+<!----------JavaScript for Toggle Menu------------------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
